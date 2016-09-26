@@ -8,6 +8,8 @@
 module.exports = {
 
   attributes: {
+    borough: {type: "string"},
+    cuisine: {type: "string"}
   }
 };
 

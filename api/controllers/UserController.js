@@ -6,6 +6,12 @@
  */
 
 module.exports = {
-	
+	hi: function (req, res) {
+		// debugger;
+		// assert.equal(req.method, "GET");
+		if (req.method.toUpperCase() === "GET") {
+			return res.send('hi, there');
+		}
+		return res.send('wrong method!');
+	}
 };
-

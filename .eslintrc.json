@@ -2,6 +2,11 @@
     "extends": "google",
     "installedESLint": true,
     "rules": {
-      "spaced-comment": "off"
+      "spaced-comment": "off",
+      "padded-blocks": "off",
+      "indent": "off",
+      "space-before-function-paren": "off",
+      "no-negated-condition": "off",
+      "object-curly-spacing": "off"
     }
 }
