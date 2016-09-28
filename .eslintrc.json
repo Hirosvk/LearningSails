@@ -6,7 +6,13 @@
       "padded-blocks": "off",
       "indent": "off",
       "space-before-function-paren": "off",
+      "space-before-blocks": "off",
       "no-negated-condition": "off",
-      "object-curly-spacing": "off"
+      "object-curly-spacing": "off",
+      "key-spacing": "off",
+      "require-jsdoc": "off",
+      "brace-style": "off",
+      "max-statements-per-line": "off",
+      "default-case": "off"
     }
 }

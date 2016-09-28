@@ -6,6 +6,8 @@
  */
 
 module.exports = {
-	
-};
+	look: function(req, res){
+		return res.send(req.param("where"));
+	}
 
+};
